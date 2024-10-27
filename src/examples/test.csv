@@ -1,0 +1,3 @@
+taskname,description,assignee,reporter,labels,sprint,priority,status,parent,date,link,completion
+EF_10,"Add the redshift syntax to the codebase","Ayomide,Hassan",Ibrahim,"Coding,Implementation",Sprint1,high,,,,"www.github.com/hassanayo",
+EF_11,"Submit paper","Kenny",Pius,"Coding",Sprint1,normal,done,,2024-11-10,,1
