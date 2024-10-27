@@ -1,4 +1,4 @@
 Manifest-Version: 0.0.1
 Project-Name: taskflow
 Source: src
-Require-Libraries: 
+Require-Libraries: |lib://rascal-lsp/|

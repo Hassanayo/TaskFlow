@@ -1,9 +1,11 @@
 task EF_10{
-    Description: "Add the redshift syntax to the codebase"
+    Description: "Add the new function to the codebase"
     Assignee: [Ayomide, Hassan]
     Reporter: Ibrahim
     Labels: [Coding, Implementation]
+    Priority: High
     Sprint: Sprint1
+    Status: Done
     Link: "www.github.com/hassanayo"
     Priority: High
 }
@@ -11,11 +13,11 @@ task EF_10{
 task EF_11{
     Description: "Submit paper"
     Assignee: [Kenny]
-    Reporter: Pius
+    Reporter: Jack
     Labels: [Coding]
     Sprint: Sprint1
     Priority: Normal
-    Status: Done
+    Status: in-progress
     Parent-Task: EF_10
     Date-Created: 2024-11-10
     Link: "www.github.com/hassanayo"

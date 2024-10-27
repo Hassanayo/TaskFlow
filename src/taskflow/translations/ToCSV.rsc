@@ -6,7 +6,6 @@ import taskflow::utils::Utils;
 import csv::ast::csv;
 import Node;
 import List;
-
 import csv::prettyprint::csv;
 
 
@@ -20,13 +19,13 @@ public str toCSV(TaskList task = newTasks){
     // Table newTable = table(records);
     list[str] initRecord = [];
 
-    sigh = ["description","assignee","reporter","labels","sprint","priority","status","parent","date","link","completion"];
+    titles = ["description","assignee","reporter","labels","sprint","priority","status","parent","date","link","completion"];
 
     for(i <- opts) {
 
-        records += record(getRecords(i, sigh));
+        records += record(getRecords(i, titles));
     }
-    finalRecord = [unquoted(rec) | rec <- sigh];
+    finalRecord = [unquoted(rec) | rec <- titles];
     finalRecord = push(unquoted("taskname"), finalRecord);
 
     // println(initRecord);
